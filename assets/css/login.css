@@ -15,7 +15,7 @@
     .forma-lateral:nth-last-child(2){
         position: absolute;
         left: 0;
-        top: 35%;
+        top: 45%;
         width: 5rem;
         z-index: -1;
     }
@@ -28,7 +28,7 @@
     .forma-lateral:nth-last-child(2){
         position: absolute;
         left: 0;
-        top: 35%;
+        top: 45%;
         width: 5rem;
         z-index: -1;
     }
