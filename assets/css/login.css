@@ -15,7 +15,8 @@
     .forma-lateral:nth-last-child(2){
         position: absolute;
         left: 0;
-        top: 60%;
+        top: 35%;
+        width: 5rem;
         z-index: -1;
     }
 }
@@ -27,7 +28,8 @@
     .forma-lateral:nth-last-child(2){
         position: absolute;
         left: 0;
-        top: 60%;
+        top: 35%;
+        width: 5rem;
         z-index: -1;
     }
 }
@@ -37,6 +39,7 @@
         display: block;
         position: absolute;
         width: 6rem;
+        height: 25rem;
         right: 0;
         top: 50%;
         margin-top: -208px;
