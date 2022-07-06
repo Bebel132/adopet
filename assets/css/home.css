@@ -1,97 +1,81 @@
-/*************************/
-/*         HOME          */
-/*************************/
-
-.home {
-    background-color: var(--cor-primaria);
-    z-index: -1;
-    color: #fff;
+main {
+    margin-top: -7rem;
 }
 
-/** main **/
-
-.main-container {
+.home-texto {
+    width: 15rem;
     margin: auto;
-    width: 14rem;
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-}
-
-.p-desktop {
-    display: none;
-}
-
-
-@media screen and (min-width: 768px) {
-    .p-mobile {
-        display: none;
-    }
-
-    .p-desktop {
-        display: block;
-    }
-
-    main {
-        margin-top: -4rem;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-
-    .main-container {
-        margin-top: 2rem;
-        width: 27rem;
-    }
-}
-
-.main__logo {
-    max-width: 20rem;
-}
-
-@media screen and (max-width: 360px) {
-    .main__logo {
-        width: 11rem;
-    }
-}
-
-.forma-lateral {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    margin-top: -208px;
-    z-index: 1;
-}
-
-h3 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 48px;
-    text-align: center;
-}
-
-p {
+    margin-top: 1rem;
+    color: var(--cor-primaria);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-
     text-align: center;
 }
 
-.main__botoes {
+.pets {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
-    height: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet-card {
+    z-index: -1;
     width: 100%;
-    margin-top: 1rem;
+    margin: 1rem 0;
+    color: var(--cor-detalhes-escuro);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: var(--cor-detalhes-claro);
+}
+
+@media screen and (min-width: 768px) {
+    .home-texto {
+        margin: 4rem auto 1rem auto;
+        width: 23rem;
+    }
+
+    .pets {
+        flex-direction: row;
+    }
+
+    .pet-card {
+        width: 22rem;
+        margin: 1rem;
+    }
+}
+
+.pet__img {
+    float: left;
+    margin: 1rem;
+}
+
+.pet__nome {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+    margin: 1rem 0;
+}
+
+.pet__informacoes p {
+    margin: .4rem 0;
+}
+
+.pet__localizacao {
+    margin: 1.2rem 0 .5rem 0;
+}
+
+.pet-responsavel__icon {
+    float: left;
+    margin-right: .5rem;
+}
+
+footer {
+    margin: 0;
 }
