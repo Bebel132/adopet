@@ -134,7 +134,7 @@ header {
 /** footer **/
 
 footer {
-    margin-top: 8rem;
+    margin-top: 1rem;
     color: #FFFFFF;
     background-color: var(--cor-primaria);
     display: flex;
@@ -163,6 +163,20 @@ footer {
 
 @media screen and (max-width: 360px) {
     .footer__img {
+        width: 10rem;
+        margin-bottom: -1rem;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .footer__img {
+        width: 10rem;
+        margin-bottom: -1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer__img {
         width: 15rem;
         margin-bottom: -2rem;
     }
@@ -174,7 +188,7 @@ footer {
     }
 
     .footer__img {
-        width: 20rem;
-        margin-bottom: -3rem;
+        width: 13rem;
+        margin-bottom: -2rem;
     }
 }
