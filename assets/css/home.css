@@ -1,0 +1,97 @@
+/*************************/
+/*         HOME          */
+/*************************/
+
+.home {
+    background-color: var(--cor-primaria);
+    z-index: -1;
+    color: #fff;
+}
+
+/** main **/
+
+.main-container {
+    margin: auto;
+    width: 14rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.p-desktop {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .p-mobile {
+        display: none;
+    }
+
+    .p-desktop {
+        display: block;
+    }
+
+    main {
+        margin-top: -4rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .main-container {
+        margin-top: 2rem;
+        width: 27rem;
+    }
+}
+
+.main__logo {
+    max-width: 20rem;
+}
+
+@media screen and (max-width: 360px) {
+    .main__logo {
+        width: 11rem;
+    }
+}
+
+.forma-lateral {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -208px;
+    z-index: 1;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+}
+
+.main__botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;
+    margin-top: 1rem;
+}

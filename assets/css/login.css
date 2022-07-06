@@ -1,0 +1,149 @@
+.patas {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.forma-lateral:nth-last-child(1){
+    width: 7rem;
+}
+
+@media screen and (max-width: 360px) {
+    .forma-lateral:nth-last-child(1){
+        display: none;
+    }
+    .forma-lateral:nth-last-child(2){
+        position: absolute;
+        left: 0;
+        top: 60%;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .forma-lateral:nth-last-child(1){
+        display: none;
+    }
+    .forma-lateral:nth-last-child(2){
+        position: absolute;
+        left: 0;
+        top: 60%;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .forma-lateral:nth-last-child(1){
+        display: block;
+        position: absolute;
+        width: 6rem;
+        right: 0;
+        top: 50%;
+        margin-top: -208px;
+        z-index: -1;
+    }
+    .forma-lateral:nth-last-child(2){
+        display: none;
+    }
+}
+
+/** main **/
+
+main {
+    padding: 0 1rem;
+    margin: -6rem auto 0 auto;
+}
+
+@media screen and (min-width: 360px) {
+    main {
+        padding: 1rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        padding: 3rem;
+        width: 30rem;
+    }
+}
+
+.main-container {
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.main-container p {
+    margin-top: 1rem;
+    color: var(--cor-primaria);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.login__logo {
+    width: 15rem;
+}
+
+.main-container form {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main-container form label {
+    margin: 1.5rem 0 .5rem 0;
+    color: var(--cor-detalhes-escuro);
+}
+
+.main-container form input {
+    text-align: center;
+    padding: .8rem 0;
+    background-color: var(--cor-detalhes-claro);
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.main-container form a {
+    margin: 1rem 0 0 0;
+    color: var(--cor-terciaria-coral);
+}
+
+.main-container form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--cor-detalhes-medio);
+    opacity: 1; /* Firefox */
+}
+  
+.main-container form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--cor-detalhes-medio);
+}
+  
+.main-container form input::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--cor-detalhes-medio);
+}
+
+.senha {
+    width: 20rem;
+    margin: auto;
+}
+
+.main-container form button {
+    width: 10rem;
+    margin: 1rem auto 0 auto;
+}
