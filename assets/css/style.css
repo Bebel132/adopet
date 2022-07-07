@@ -37,6 +37,27 @@
 
 /** header **/
 
+.imgUsuario {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 100%;
+}
+
+.imgUsuario:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1440px) {
+    .imgUsuario {
+        right: 5rem;
+    }
+}
+
 header {
     height: 15rem;
 }

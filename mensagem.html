@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adopet - home</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mensagem.css">
+</head>
+<body>
+    <div class="container home">
+        <img src="assets/vectors/Usuário.png" class="imgUsuario" alt="imagem do usuario">
+        <header>
+            <img src="assets/vectors/Forma 1.svg" alt="forma 1">
+            <div class="menu">
+                <ul class="menu__lista">
+                    <li class="menu-lista__itens"><a href="index.html"><img class="menu-logo" src="assets/img/adopet-logo1.png" alt=""></a></li>
+                    <li class="menu-lista__itens"><a href="home.html"><img class="menu-lista-itens__img" src="assets/vectors/Casa.png" alt="casa"></a></li>
+                    <li class="menu-lista__itens"><a href="mensagem.html"><img class="menu-lista-itens__img" src="assets/vectors/Mensagens.png" alt="mensagens"></a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <p class="mensagem-texto">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal</p>
+            <form action="" class="mensagem-form">
+                <label for="nome">Nome</label>
+                <input placeholder="Insira seu nome completo" type="text" name="nome" id="">
+                <label for="numero">Numero</label>
+                <input placeholder="Insira seu telefone e/ou whatsapp" type="tel" name="numero" id="">
+                <label for="nomeAnimal">Nome do animal</label>
+                <input placeholder="Por qual animal voce se interessou?" type="text" name="nomeAnimal" id="">
+                <label for="mensagem">Mensagem</label>
+                <textarea placeholder="Escreva sua mensagem" name="mensagem" id="" cols="30" rows="10"></textarea>
+                <button class="botao">Enviar</button>
+            </form>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <p>2022 - Desenvolvido por Emanuel Ferreira</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
