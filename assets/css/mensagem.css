@@ -2,7 +2,6 @@ main {
     color: var(--cor-primaria);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     margin-top: -13rem;
     padding: 1rem;
@@ -33,6 +32,7 @@ main {
 }
 
 .mensagem-texto {
+    text-align: center;
     max-width: 14rem;
     margin: auto;
     line-height: 24px;
@@ -56,8 +56,16 @@ main {
     background-color: var(--cor-detalhes-claro);
 }
 
+input[value]{
+    color: var(--cor-detalhes-escuro);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
 .mensagem-form label {
     margin: 1.5rem 0 1rem 0;
+    font-weight: bold;
 }
 
 .mensagem-form input, textarea {
