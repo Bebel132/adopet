@@ -74,9 +74,15 @@ header {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 560px) {
     header img {
         max-width: 100%;
+    }
+
+    .menu {
+        position: absolute;
+        top: 2.5rem;
+        left: 1rem;
     }
 
     .menu-logo {
@@ -97,9 +103,16 @@ header {
     }
 }
 
+@media screen and (max-width: 768px){
+    .menu {
+        top: 4rem;
+        left: 3rem;
+    }
+}
+
 @media screen and (min-width: 768px){
     header img {
-        width: 30rem;
+        width: 25rem;
     }
 
     .menu {
@@ -108,14 +121,23 @@ header {
     }
 }
 
+
+@media screen and (max-width: 360px){
+    .menu {
+        top: 2rem;
+        left: 1rem;
+    }
+}
+
+
 @media screen and (min-width: 1100px) {
     header img {
-        width: 35rem;
+        width: 30rem;
     }
 
     .menu {
         top: 4rem;
-        left: 3rem;
+        left: 2rem;
     }
 
     .menu__lista {
@@ -184,7 +206,7 @@ footer {
 
 @media screen and (min-width: 1100px) {
     footer {
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .footer__img {

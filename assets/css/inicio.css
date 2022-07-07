@@ -70,7 +70,7 @@ body {
 
 @media screen and (min-width: 1100px) {
     .main-container {
-        margin-top: 2rem;
+        margin-top: -1rem;
         width: 27rem;
     }
 }

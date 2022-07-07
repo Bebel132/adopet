@@ -1,6 +1,25 @@
 main {
-    margin-top: -7rem;
+    margin-top: -13rem;
 }
+
+@media screen and (min-width: 360px) {
+    main {
+        margin-top: -10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        margin-top: -3rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        margin-top: -13rem;
+    }
+}
+
 
 .home-texto {
     width: 15rem;
@@ -47,7 +66,7 @@ main {
 
     .pet-card {
         width: 22rem;
-        margin: 1rem;
+        margin: .5rem;
     }
 }
 
