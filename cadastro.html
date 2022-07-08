@@ -33,9 +33,15 @@
                     <label for="nome">Nome</label>
                     <input placeholder="Digite seu nome completo" type="text" name="nome" id="nome">
                     <label for="senha">Senha</label>
-                    <input class="senha" placeholder="Crie uma senha" type="password" name="senha" id="senha">
+                    <div class="senha-container">
+                        <input class="senha" placeholder="Crie uma senha" type="password" name="senha" id="senha">
+                        <img src="assets/vectors/preguica.svg" class="mudar" alt="mudar visibilidade">
+                    </div>
                     <label for="confirmarSenha">Confirmar sua senha</label>
-                    <input class="senha" placeholder="Repita a senha criada acima" type="password" name="confirmarSenha" id="confirmarSena">
+                    <div class="senha-container">
+                        <input class="senha" placeholder="Repita a senha criada acima" type="password" name="confirmarSenha" id="confirmarSenha">
+                        <img src="assets/vectors/preguica.svg" class="mudar" alt="mudar visibilidade" id="mudarConfirmarSenha">
+                    </div>
                     <button type="submit" class="botao">cadastrar</button>
                 </form>
             </div>
@@ -48,5 +54,6 @@
             </div>
         </footer>
     </div>
+    <script src="assets/scripts/toggleView.js"></script>
 </body>
 </html>

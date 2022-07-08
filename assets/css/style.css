@@ -35,6 +35,27 @@
     border: none;
 }
 
+.senha-container {
+    margin: auto;
+    max-width: 20rem;
+    display: flex;
+}
+
+.mudar {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 0;
+    margin: .6rem .5rem 0 0;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .mudar{
+        right: 3.5rem;
+    }
+}
+
 /** header **/
 
 .imgUsuario {
