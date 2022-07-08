@@ -3,6 +3,8 @@
 
 ### Criando um site com a metodologia mobile-first
 
+* Finalizado, eu acho
+
 #### Projeto do Challenge Frontend da Alura
 #### link do projeto: https://bebel132.github.io/adopet/
 
