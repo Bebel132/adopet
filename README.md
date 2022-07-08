@@ -14,5 +14,7 @@
 
 
 #
-![Logo](https://cdn.discordapp.com/attachments/805860115814940713/994197721793708033/adopet-logo1.png)
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/805860115814940713/994197721793708033/adopet-logo1.png" />
+</p>
 
