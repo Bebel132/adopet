@@ -70,6 +70,13 @@ main {
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .pets {
+        width: 74rem;
+        margin: auto;
+    }
+}
+
 .pet__img {
     float: left;
     margin: 1rem;
